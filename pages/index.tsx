@@ -1,3 +1,4 @@
+import RomanNumeralCalculator from "@/components/RomanNumeralCalculator/RomanNumeralCalculator";
 import styles from "@/pages/index.module.css";
 import Head from "next/head";
 
@@ -22,7 +23,7 @@ export default function Home() {
           numeral
         </h1>
 
-        {/* add calculator here */}
+        <RomanNumeralCalculator />
       </main>
     </div>
   );
