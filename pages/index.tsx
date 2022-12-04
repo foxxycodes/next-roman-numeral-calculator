@@ -16,7 +16,7 @@ export default function Home() {
           <a
             href="https://en.wikipedia.org/wiki/Roman_numerals"
             target="_blank"
-            referrerPolicy="no-referrer"
+            rel="noopener noreferrer"
           >
             Roman
           </a>{" "}
