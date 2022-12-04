@@ -4,10 +4,14 @@
     "dev": "next dev",
     "build": "next build",
     "start": "next start",
+    "lint": "next lint",
     "test": "jest --watch",
     "test:ci": "jest --ci"
   },
   "dependencies": {
+    "eslint": "^8.29.0",
+    "eslint-config-next": "^13.0.6",
+    "eslint-plugin-testing-library": "^5.9.1",
     "next": "latest",
     "react": "^18.1.0",
     "react-dom": "^18.1.0"
