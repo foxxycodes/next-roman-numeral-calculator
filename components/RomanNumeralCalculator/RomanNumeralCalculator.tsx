@@ -1,4 +1,5 @@
 import { useState } from "react";
+import { debounce } from "./debounce";
 import { intToRoman } from "./int-to-roman";
 import styles from "./styles.module.css";
 
@@ -29,7 +30,7 @@ const RomanNumeralCalculator: React.FC = () => {
         <input
           data-testid="int-input"
           type="number"
-          onChange={handleOnChange}
+          onChange={debounce(handleOnChange, 200)}
         />
         <p> = </p>
         <p>{romanNumeral}</p>

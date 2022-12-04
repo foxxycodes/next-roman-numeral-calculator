@@ -21,6 +21,18 @@ exports[`renders homepage unchanged 1`] = `
          
         numeral
       </h1>
+      <div
+        class="container"
+      >
+        <input
+          data-testid="int-input"
+          type="number"
+        />
+        <p>
+           = 
+        </p>
+        <p />
+      </div>
     </main>
   </div>
 </div>
